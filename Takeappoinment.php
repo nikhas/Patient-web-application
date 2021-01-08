@@ -20,16 +20,16 @@
                       <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="Department.html">Departments</a>
+                            <a class="nav-link" href="Department.php">Departments</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="Takeappoinment.html">Take an Appoinment</a>
+                            <a class="nav-link" href="Takeappoinment.php">Take an Appoinment</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="About.html">About</a>
+                            <a class="nav-link" href="About.php">About</a>
                           </li>
                           <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,7 +41,7 @@
                               <li><a class="dropdown-item" href="#">Give a feedback</a></li>
                             </ul>
                           </div>
-                         
+                          
                         </ul>
                       </div>
                     </div>
@@ -52,33 +52,51 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="images\cardiology-logo.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Cardiology is a branch of medicine that deals with the disorders of the heart as well as some ... This means that the heart is connected to and affects the entirety of the body.Ambulatory blood pressure monitoring over a 24-hour period appears more accurate than office best blood pressure measurement</p>
-                    </div>
-                  </div>
+                <table class="table">
+                    <tr>
+                        
+                        <td>Name</td>
+                        <td><input type="text" class="form-control"></td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>DOB</td>
+                        <td><input type="date" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Date of Appoinment</td>
+                        <td><input type="date" class="form-control"></td>
+                    </tr>
+                   <tr>
+                       <td>Department</td>
+                       <td><input type="text" class="form-control"></td>
+                   </tr>
+                    <tr>
+                        <td>Doctor Name</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button class="btn btn-success">Submit</button></td>
+                    </tr>
+                </table>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="images\pediatric.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Pediatrics is the specialty of medical science concerned with the physical, mental, and social health of children from birth to young adulthood. Pediatric care encompasses a broad spectrum of health services ranging from preventive health care to the diagnosis and treatment of acute and chronic diseases.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="images\Neuro.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.</p>
-                    </div>
-                  </div>
-            </div>
-            
         </div>
+    </div>
     
-    
+
 
 
 

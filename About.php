@@ -20,16 +20,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Department.html">Departments</a>
+                  <a class="nav-link" href="Department.php">Departments</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Takeappoinment.html">Take an Appoinment</a>
+                  <a class="nav-link" href="Takeappoinment.php">Take an Appoinment</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="About.html">About</a>
+                  <a class="nav-link" href="About.php">About</a>
                 </li>
                 <div class="dropdown">
                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
